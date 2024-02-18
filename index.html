@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoatdongtetthainguyen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="header">           
+            <h2>Thái Nguyên - Quê Hương Tôi</h2>
+        </div>
+
+        <div class="slide-img">
+            <img src="https://baothainguyen.vn/file/oldimage/baothainguyen/UserFiles/image/t3(10).jpg" alt="anh1" class="slides">
+            <img src="https://cdnmedia.baotintuc.vn/Upload/cVJiASFv9S8nriO7eNwA/files/2022/09/26-9/Tp%20Thai%20Nguyen.jpg" alt="anh1" class="slides">
+            <img src="https://i.ex-cdn.com/nongnghiep.vn/files/content/2023/11/01/news_2075_1-140153_718-141738.jpg" alt="anh1" class="slides">
+        </div>
+      
+        <div class="body">
+           <div class="pp">
+            <div class="t">
+                Thái Nguyên là tỉnh tiếp giáp với Hà Nội, nằm trong quy hoạch vùng Thủ đô Hà Nội và được xác định là một trong những trung tâm vùng của các tỉnh trung du miền núi Bắc Bộ, diện tích tự nhiên 3.562,82 km².
+                là một trong những trung tâm chính trị, kinh tế của khu Việt Bắc nói riêng, của vùng trung du miền núi Đông Bắc nói chung,<br> là cửa ngõ giao lưu kinh tế xã hội giữa vùng trung du miền núi với vùng đồng bằng Bắc Bộ; <br>phía Bắc tiếp giáp với tỉnh Bắc Kạn, phía Tây giáp với các tỉnh Vĩnh Phúc, Tuyên Quang, phía Đông giáp với các tỉnh Lạng Sơn, Bắc Giang và phía Nam tiếp giáp với thủ đô Hà Nội.
+                <br>Tỉnh Thái Nguyên có 9 đơn vị hành chính gồm: 3 Thành phố: TP. Thái Nguyên; TP. Sông Công, TP. Phổ Yên và 6 huyện: Phú Bình, Đồng Hỷ, Võ Nhai, Định Hóa, Đại Từ, Phú Lương; có 178 xã, phường, thị trấn. 
+            </div>
+            <div class="p" >
+                <img src="https://thainguyen.gov.vn/documents/20181/0/tinh-TN.jpg/7ce4c506-3188-4258-8730-94d087539843" alt="">
+            </div>
+           </div>
+            <h2 style="font-size: 32px;">Hoạt Động Đặc Sắc Ngày Tết</h2>
+            <div class="hoat_dong">
+                <div class="text" style="top: 0px;">
+                    <h3 style="text-transform: uppercase;">bắn pháo hoa</h3>
+                    <p> Mỗi năm Tết đến, một điều không thể thiếu trong đêm giao thừa đó là bắn pháo hoa. Tiếng pháo báo hiệu một năm cũ đã qua và chào đón một năm mới đến.
+                    Tại Thái Nguyên có 7 điểm nổ pháo hoa tầm thấp bao gồm: <br>Quảng trường Võ Nguyên Giáp và Nhà văn hóa Công ty cổ phần Gang Thép Thái Nguyên(TP.Thái Nguyên)<br>Quảng trường Vạn Xuân (TP. Phổ Yên); <br>Quảng trường 1-7 (TP. Sông Công); <br>Đài tưởng niệm các anh hùng, liệt sỹ Đồi Gò Son (huyện Đại Từ); <br>huyện Phú Bình và huyện Phú Lương tổ chức tại Trung tâm Văn hóa - Thể thao, Truyền thông của các huyện.<br> Thời gian bắn pháo hoa: Từ 00 giờ 00 phút đến 00 giờ 15 phút.
+                    </p>
+                </div>
+                <div class="anh1">
+                    <img id="imgPhaoHoa" onclick="changeImage()" src="https://cms.thainguyen.vn/documents/130230/14097400/z4994971342181_f1909723e91d909e190f957927cedea9.jpg" alt="" >
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="pre1()">&lt;</button>
+                <button onclick="next1()">&gt;</button>
+            </div>
+            
+            <div class="hoat_dong">
+                <div class="anh2"> 
+                    <img id="imgLeHoi" src="" alt="">
+                </div>
+                <div class="text" style="right: 0; top: 0px">
+                    <h3>Lễ hội</h3>
+                    
+                    <p> Lễ hội ngày Tết là dịp để ta hướng về nguồn cội, cầu mong may mắn cho cả năm. Bạn có thể khám  phá những lễ hội đặc sắc dịp Tết tại Thái nguyên như :
+                        <br> Lễ hội đền Đuổm (phú Lương)<br>Lễ hội chùa Phủ Liễn(Thái Nguyên)  <br>Lễ hội Lồng Tồng ATK - Định Hoá(Định Hóa)  <br>Chùa Hang - Kim Sơn Tự(Sông Công)
+                        <br>...
+                    </p>
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="pre2()">&lt;</button>
+                <button onclick="next2()">&gt;</button>
+            </div>
+
+            <div class="hoat_dong">
+                <div class="text" style="top: 0px;">
+                    <h3>Đi lễ chùa</h3>
+                    <p>  Đi lễ đầu năm không đơn giản chỉ để ước nguyện, mà đó còn là khoảnh khắc để con người hòa mình vào chốn tâm linh, bỏ lại phía sau bao vất vả trong cuộc mưu sinh. Mỗi người đi lễ với những mục đích khác nhau, người thì cầu tài, cầu lộc, cầu duyên; người thì cầu bình an, sức khỏe cho bản thân và gia đình.
+                        <br>+Đền Đuổm(huyen Phú Lương);<br>+Chùa Phù Liễn (TP. Thái Nguyên);<br>+Đình - Đền - Chùa Cầu Muối (huyen Phú Bình);<br>+chùa Thuần Lương (tp.Sông Công) ; <br>...
+                    </p>
+                </div>
+                <div class="anh1">
+                    <img id="imgDiChua" src="https://image.giacngo.vn/w770/Uploaded/2024/estnselxslt/2023_01_23/chua-phuc-lam-o-tp-bien-hoa-ngay-mong-mot-tet-anh-cua-thuong-toa-thich-minh-tri-6340.jpg" alt="" >
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="pre3()">&lt;</button>
+                <button onclick="next3()">&gt;</button>
+            </div>
+            <div class="anh00">CÁC HOẠT ĐỘNG CHÀO ĐÓN TẾT ĐẾN TẠI MỘT SỐ TRƯỜNG Ở THÁI NGUYÊN
+                <img  id="imgkhac" src ="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/326132211_489693200019857_3228588407666014865_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGqh2DOU-ug9Z75hhe2E92EZmpTG64hL2RmalMbriEvZDtciCEsUz_wgWyvlM4DKn6bDGSy1OIQF7yrcWHNg2We&_nc_ohc=StxUullGQyIAX9st54s&_nc_ht=scontent.fhan3-3.fna&oh=00_AfBYXg9cpm9Y2BoWPAeBHylrvmANNdDDVme_LtZK-Msu2w&oe=65BA3664" alt="">
+                
+            
+                <div class="btn">
+                    <button onclick="pre4()">&lt;</button>
+                    <button onclick="next4()">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer"> liên hệ:email:mbui8733@mail.com
+
+        <a href="https://www.facebook.com/profile.php?id=100083320436531&mibextid=ZbWKwL">liên hệ:facebook</a>
+    </div>
+    <script src="./index.js"></script>
+     
+</body>
+</html>
